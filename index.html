@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="my.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo">My Portfolio</div>
+            <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+        </div>
+    </nav>
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Hi, I'm SR Vignesh, I completed my B-tech with a specialization in blockchain technology, gaining strong proficiency in C,
+                Java, Python, SQL, and data structures and algorithms. With a keen interest in web and software
+                development, I am a quick learner equipped with the academic and technical skills needed to excel in
+                various roles. I am always eager to expand my knowledge through training and experience, and I enjoy
+                using my abilities to help others and contribute to team success.</p>
+        </div>
+        <img src="mypic.jpeg" alt="SR Vignesh " class="hero-image">
+    </section>
+    <section id="about" class="section">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <h2>About Me</h2>
+        <p> I’ve worked on diverse projects such as decentralized certificate verification, a health monitoring system using IoT, and a predictive typing assistant for elderly users. My experience has helped me gain proficiency in both frontend and backend technologies, and I'm driven by the opportunity to solve complex problems through innovative software solutions.
+            I enjoy collaborating with teams, learning new technologies, and constantly improving my skill set to stay at the forefront of tech advancements.</p>
+        <div class="content">
+            <div class="card skill-card">
+                <h3>Skills</h3>
+                <p>Programming Languages: Python, Java, C</p>
+                <p>Frameworks: JavaScript, Django</p>
+                <p>Tools: Linux, Vs code, Tableau, Ubuntu</p>
+                <p>DataBases: SQL, Mongodb</p>
+            </div>
+            <div class="card skill-card">
+                <h3>Certifications</h3>
+                <p><a href="https://www.credly.com/badges/73097a63-ff61-454b-bbda-22403343d696/public_url" target="_blank">AWS Certified Cloud Practitioner </a></p>
+                <p><a href="https://www.credly.com/badges/6b269921-407c-421f-b739-47ee9a9f90f6/public_url"  target="_blank" >AWS Cloud Quest: Cloud Practitioner</a></p>
+                <p><a href="https://drive.google.com/file/d/1TrtczgcYbmatNLtg8QiOCmdTsrxTNRlk/view" target="_blank" >Tcs ion career edge – young professional</a></p>
+                <p><a href="https://drive.google.com/file/d/1-0mcv5KJmLkHghnXlJz1xS7WTaoIelN-/view"  target="_blank">Newleaf Hackathon Technical</a></p>
+                <p><a href="https://smartinternz.com/internships/externship_saas_certificates/e2f5190e8ca6f0dfc2d7294faaa2a2fa" target="_blank"  >Data Analytics</a></p>
+                <p><a href="https://www.cloudskillsboost.google/public_profiles/1262259f-f42b-41ae-8354-a15f58591522"  target="_blank" >Google Cloud Skills Boost</a></p>
+            </div>
+        </div>
+    </section>
+    <section id="education" class="section education-section">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <h2>Education</h2>
+        <div class="content">
+            <div class="card education-card">
+                <h3>Bachelor of Technology (B.Tech)</h3>
+                <p><strong>Institution:</strong> Vellore Instite Of Technology</p>
+                <p><strong>CGPA:</strong> 8.64</p>
+                <p><strong>Year of Completion:</strong>  2024</p>
+            </div>
+            <div class="card education-card">
+                <h3>Intermediate</h3>
+                <p><strong>Institution:</strong> Narayana Junior College</p>
+                <p><strong>CGPA:</strong> 963</p>
+                <p><strong>Year of Completion:</strong> 2020</p>
+            </div>
+
+            <div class="card education-card">
+                <h3>High School</h3>
+                <p><strong>Institution:</strong> Narayana EM High School</p>
+                <p><strong>GPA:</strong> 10</p>
+                <p><strong>Year of Completion:</strong> 2018</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section" style="padding-top: 50px;">
+        <h2>Projects</h2>
+
+        <div class="content">
+            <div class="card project-card">
+                <img src="blog.png" alt="Blog">
+                <h3>Blog Application</h3>
+                <p>This project allows users to create and manage blogs with various features such as adding, editing, and deleting posts, and user authentication.</p>
+                <a href="https://github.com/15vignesh/Myblog" class="btn" target="_blank">GitHub</a>
+            </div>
+            <div class="card project-card">
+                <img src="rainfall.jpg" alt="Rainfall Analysis Project">
+                <h3>Rainfall Analysis</h3>
+                <p>Analyzing the rainfall dataset of india in different states by using Tableau to visualize different
+                    trends, patterns of rainfall and Design a website to show dashboard and stories of derived
+                    insights.</p>
+                <a href="https://github.com/15vignesh/Data_Analytics_Project" class="btn" target="_blank">GitHub</a>
+            </div>
+            <div class="card project-card">
+                <img src="hms.jpg" alt="Health Monitoring Project">
+                <h3>Health Monitoring System</h3>
+                <p>Health monitoring system includes an SPO2, pulse rate detector, temperature, WiFi module,
+                    and microcontroller that work together to provide real-time monitoring of patients’ vital signs
+                    and displays the data on Blynk platform for monitoring and enhancing mobility.</p>
+                <a href="https://github.com/15vignesh/Health-Monitoring-System" class="btn" target="_blank">GitHub</a>
+            </div>
+            <div class="card project-card">
+                <img src="typing.png" alt="Assistant">
+                <h3>Advancing Typing Assistant For Elderly Users</h3>
+                <p>This typing assistant uses a three-layer system to predict the next word and auto-correct user input. It selects the most likely word based on probabilities, ensuring accuracy and improving the user experience.</p>
+                <a href="https://github.com/15vignesh/advance-typing-assistant-for-elderly-users" class="btn" target="_blank">GitHub</a>
+            </div>
+            <div class="card project-card">
+                <img src="shlp.jpg" alt="Certificate">
+                <h3>Decentralized Certificate Registration And Verification</h3>
+                <p>This application enables users to securely register their certificates on the blockchain, ensuring
+                    tamper-proof storage.</p>
+                <a href="https://github.com/15vignesh/Decentralized_Certificate_Verification" class="btn" target="_blank">GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <h2>Contact</h2>
+        <p>Email: surinenireddyvignesh15@gmail.com</p>
+        <p>Phone: 9177314713</p>
+        <div>
+            <a href="https://www.linkedin.com/in/vignesh-sr-rk15/" target="_blank"><i class="fab fa-linkedin fa-2x" style="color:#4ab0e7;"></i></a>
+            <a href="https://github.com/15vignesh" target="_blank"><i class="fab fa-github fa-2x" style="color:#4ab0e7;"></i></a>
+            <a href="resume.pdf" target="_blank"> <i class="fas fa-file-alt fa-2x" style="color:#4ab0e7;"></i></a>
+        </div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <div class="contact-form">
+            <h2>Get in Touch</h2>
+            <form action="https://formsubmit.co/b924586dc3cce84d12a2752691c2cf18" method="POST">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject:</label>
+                    <input type="text" id="subject" name="subject" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <input type="hidden" name="_template" value="table">
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/thanks.html">
+                <input type="hidden" name="_captcha" value="false">
+                <center><button type="submit">Send Message</button></center>
+            </form>
+            
+        </div>
+        <h1 style="text-align: center;">
+            <a href="#home" style="text-decoration:none;color:white;background-color:#333;border-radius:50%;padding:20px;width:20px;height:20px;display:inline-block;text-align:center;line-height:20px;">
+                &#8679;
+            </a>
+        </h1>
+        
+    </section>
+
+    
+<script src="myscript.js"></script>
+</body>
+</html>
